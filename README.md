@@ -1,7 +1,5 @@
 # Reproductions of issues with Gemini 2.5 pro
 
-(only one so far)
-
 ## Unescaped newlines
 
 `unescaped_newline.js` contains a semi-consistent reproduction of an issue where a newline in a go string is being generated as an unescaped newline, generating invalid go syntax.
